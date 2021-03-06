@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+.title {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    color: white;
+    font-style: italic;
+}
+
+.travel-text {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-100%, -40%);
+    color: white;
+    width: 400px;
+    height: 350px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pictures {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 750px;
+    height: 525px;
+}
+
+.fig > figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+
+.pic1 {
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    width: 250px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.pic2 {
+    position: absolute;
+    top: 250px;
+    left: 215px;
+    width: 350px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.pic3 {
+    position: absolute;
+    top: -50px;
+    left: 225px;
+    width: 500px;
+    height: 375px;
+    border-radius: 50%;
+}
+
+.links {
+    position: absolute;
+    bottom: 0;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 85%);
+    width: 400px;
+    height: 50px;
+}
+
+.acessar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 1.0rem;
+}
+
+.acessar > img {
+    padding-right: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.acessar:hover {
+    color: whitesmoke;
+    font-weight: 700;
+        text-decoration: underline;
+}

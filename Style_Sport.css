@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:lightskyblue;
+    height: 100vh;
+}
+
+.title {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    color: white;
+    font-style: italic;
+}
+
+#text-sport {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-120%, -40%);
+    color: white;
+    width: 450px;
+    height: 350px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.picture{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -45%);
+    width: 640px;
+    height: 500px;
+}
+
+.fig > img {
+    background-color: lightslategray;
+    border-radius: 50%;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+}
+
+
+.links {
+    position: absolute;
+    bottom: 0;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 85%);
+    width: 400px;
+    height: 50px;
+}
+
+.acessar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.acessar > img {
+    padding-right: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.acessar:hover {
+    color: whitesmoke;
+    font-weight: 700;
+    text-decoration: underline;
+}
